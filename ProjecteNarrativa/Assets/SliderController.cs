@@ -25,7 +25,7 @@ public class SliderController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LevelTraveler.MyTravelInstance.stats.Karma = slider.value;
+        //LevelTraveler.MyTravelInstance.stats.Karma = slider.value;
     }
 
     // Update is called once per frame
