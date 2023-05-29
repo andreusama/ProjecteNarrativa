@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ProceduralJail : MonoBehaviour
 {
+    [Range(0, 1)]
+    public float treshHold = 0.5f;
+    
     int seed = 0;
-    public Light light;
+    public Light light = new Light();
     public Transform gridParent;
     public List<GameObject> grid = new List<GameObject>();
 
@@ -47,11 +50,12 @@ public class ProceduralJail : MonoBehaviour
         switch (_seed)
         {
             case 1:
-
+                //here we'll instantate the prefab with the good karma decision
                 break;
 
             case -1:
-
+                //here we'll instantate the prefab with the bad karma decision
+                light.color = Color.red;
                 break;
                 
             default:
@@ -66,10 +70,17 @@ public class ProceduralJail : MonoBehaviour
         foreach (Transform child in gridParent)
         {
             child.GetComponent<HeatUnit>().heatMapValue = Map(child.GetComponent<HeatUnit>().distanceToExit, lowestValue, highestValue, 0, 1);
+            InstantiateFurniture(child);
         }
     }
 
-
+    public void InstantiateFurniture(Transform child)
+    {
+        if (child.GetComponent<HeatUnit>().heatMapValue > treshHold)
+        {
+            Instantiate(deco[Random.Range(0, deco.Count)], child.position, Quaternion.identity);
+        }
+    }
     public float DistanceToExit(Vector3 _pos)
     {
         //given a certain position in the world, return the distance to the exit
