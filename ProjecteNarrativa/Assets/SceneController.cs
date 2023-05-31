@@ -21,4 +21,9 @@ public class SceneController : MonoBehaviour
     {
         
     }
+
+    public void CheckQuest()
+    {
+        Debug.Log("New advancing!");
+    }
 }
