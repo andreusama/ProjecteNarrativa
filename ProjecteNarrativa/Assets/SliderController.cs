@@ -36,6 +36,6 @@ public class SliderController : MonoBehaviour
 
     public void UpdateSlider(float value)
     {
-        slider.value = value;
+        slider.value += value;
     }
 }

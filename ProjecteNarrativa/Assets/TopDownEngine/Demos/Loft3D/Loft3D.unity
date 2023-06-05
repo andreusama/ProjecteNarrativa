@@ -2663,6 +2663,46 @@ PrefabInstance:
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
       objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
 --- !u!4 &481156505 stripped
@@ -4941,6 +4981,46 @@ PrefabInstance:
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
       objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
 --- !u!1001 &1097235766
@@ -5103,6 +5183,18 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c23171f1b41e1b443831d0407c1e7a26, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9368091a15cde204fbb80bd0472492c7, type: 3}
+--- !u!114 &1102614220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2909113878624116748, guid: 0f0fe665cf28c074d99f1db55ef0ba5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 88457941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 292ec6a758ff49741a5caadedd7eae9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1127364625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7217,6 +7309,46 @@ PrefabInstance:
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
       objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
 --- !u!4 &1510960818 stripped
@@ -7814,6 +7946,46 @@ PrefabInstance:
         type: 3}
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
@@ -8456,6 +8628,46 @@ PrefabInstance:
         type: 3}
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
@@ -10763,6 +10975,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: sendMessages.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
 --- !u!4 &2073127908 stripped
@@ -11132,6 +11389,46 @@ PrefabInstance:
         type: 3}
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SliderController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee9d27d3bc6f8846a9812821c5dcbda, type: 3}
