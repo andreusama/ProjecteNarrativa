@@ -11,7 +11,7 @@ public class VideoController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = videoPlayer.clip.length;
+        time = videoPlayer.clip.length - 0.2;
         Debug.Log(time);
     }
 
