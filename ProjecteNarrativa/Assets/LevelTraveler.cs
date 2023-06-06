@@ -59,9 +59,9 @@ public class LevelTraveler : MonoBehaviour
     }
 
  
-    public void UpdateKarma()
+    public void UpdateKarma(float modifiedKarma)
     {
-
+        stats.Karma += modifiedKarma;
     }
     
 }

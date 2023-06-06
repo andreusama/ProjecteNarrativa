@@ -2660,6 +2660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
       objectReference: {fileID: 0}
@@ -3455,13 +3460,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
         type: 3}
+      propertyPath: questName
+      value: EnemyAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: questState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: alertMessage
+      value: Quest Finished -10 Karma!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
         type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
         type: 3}
@@ -3472,7 +3492,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 598334956}
+      objectReference: {fileID: 1714889729}
     - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
         type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -3482,6 +3502,26 @@ PrefabInstance:
         type: 3}
       propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateKarma
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTraveler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888059392177084709, guid: 79e89ee92d24194448a54290e1551bca,
+        type: 3}
+      propertyPath: onExecute.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e89ee92d24194448a54290e1551bca, type: 3}
@@ -3910,15 +3950,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 15828296}
     m_Modifications:
-    - target: {fileID: 1891085914, guid: 2d01f5019efea09429cd8fe9b84a4a2e, type: 3}
-      propertyPath: questState
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 154168062217148391, guid: 2d01f5019efea09429cd8fe9b84a4a2e,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 154168062650071478, guid: 2d01f5019efea09429cd8fe9b84a4a2e,
         type: 3}
       propertyPath: m_RootOrder
@@ -3978,16 +4009,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stimpack (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 154168063136640044, guid: 2d01f5019efea09429cd8fe9b84a4a2e,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 154168063571173772, guid: 2d01f5019efea09429cd8fe9b84a4a2e,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d01f5019efea09429cd8fe9b84a4a2e, type: 3}
@@ -4975,6 +4996,11 @@ PrefabInstance:
         type: 3}
       propertyPath: questState
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
@@ -7302,7 +7328,7 @@ PrefabInstance:
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
       propertyPath: alertMessage
-      value: Objective Complete Return to the Prisoner!:\n5 Enemies
+      value: Objectivo Completo:\n5 Guardias
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
@@ -7941,6 +7967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: questState
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
@@ -8626,6 +8657,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
       propertyPath: condition.luaConditions.Array.data[0]
       value: Variable["enemiesKilled"]==5
       objectReference: {fileID: 0}
@@ -8910,6 +8946,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1711980776}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1714889728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714889730}
+  - component: {fileID: 1714889729}
+  m_Layer: 0
+  m_Name: LevelTraveler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1714889729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714889728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45ff63d7b02cb64bbf4ff16a6a2ce01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  karmaStates: 0
+  stats: {fileID: 11400000, guid: fdf745f43356ceb4f8b2432c5bcbdb69, type: 2}
+--- !u!4 &1714889730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714889728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -121.76595, y: 17.360971, z: 50.09245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1734543681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10977,6 +11059,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
       propertyPath: sendMessages.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -11384,6 +11471,11 @@ PrefabInstance:
         type: 3}
       propertyPath: questState
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
+        type: 3}
+      propertyPath: alertMessage
+      value: Objectivo Completo:\n5 Guardias
       objectReference: {fileID: 0}
     - target: {fileID: 4285388642069482710, guid: aee9d27d3bc6f8846a9812821c5dcbda,
         type: 3}
@@ -25555,7 +25647,7 @@ MonoBehaviour:
   sequenceSpeaker: {fileID: 0}
   sequenceListener: {fileID: 0}
   waitOneFrameOnStartOrEnable: 1
-  alertMessage: Quest Finished -5 Karma!
+  alertMessage: Quest Finished +10 Karma!
   textTable: {fileID: 0}
   alertDuration: 0
   sendMessages: []
@@ -25589,7 +25681,19 @@ MonoBehaviour:
   setAnimatorStateActions: []
   onExecute:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1714889729}
+        m_TargetAssemblyTypeName: LevelTraveler, Assembly-CSharp
+        m_MethodName: UpdateKarma
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
