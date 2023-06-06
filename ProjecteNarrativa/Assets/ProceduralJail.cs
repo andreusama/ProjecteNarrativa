@@ -78,7 +78,7 @@ public class ProceduralJail : MonoBehaviour
     }
 
     public void InstantiateFurniture(Transform child)
-    {
+    {   
         if (child.GetComponent<HeatUnit>().heatMapValue > treshHold)
         {
             Instantiate(deco[Random.Range(0, deco.Count)], child.position, Quaternion.identity);
@@ -86,7 +86,30 @@ public class ProceduralJail : MonoBehaviour
         
         if (child.GetComponent<HeatUnit>().distanceToExit == lowestValue)
         {
-            Instantiate(significantElements[Random.Range(0, significantElements.Count)], child.position, Quaternion.identity);
+            int selection = 0;
+            switch(Random.Range(0, 10))
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                    break;
+
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                    selection = 1;
+                    break;
+
+                case 9:
+                case 10:
+                    selection = 2;
+                    break;
+            }
+
+            Instantiate(significantElements[selection], new Vector3(child.position.x, child.position.y + 0.5f, child.position.z), Quaternion.identity);
         }
     }
     public float DistanceToExit(Vector3 _pos)
