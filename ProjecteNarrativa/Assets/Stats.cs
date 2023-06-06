@@ -31,4 +31,14 @@ public class Stats : ScriptableObject
     {
         
     }
+
+    public void AddKarma(float value)
+    {
+        Karma += value;
+    }
+
+    public void SubstractKarma(float value)
+    {
+        Karma -= value;
+    }
 }
