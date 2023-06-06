@@ -9,6 +9,8 @@ public class SliderController : MonoBehaviour
 
     private static SliderController sliderInstance;
 
+    public GameObject karmaTracker;
+
     public static SliderController MySliderInstance
     {
         get
@@ -26,6 +28,8 @@ public class SliderController : MonoBehaviour
     void Start()
     {
         //LevelTraveler.MyTravelInstance.stats.Karma = slider.value;
+        karmaTracker = GameObject.Find("KarmaTracker");
+        SetSlider(karmaTracker.GetComponent<karmaTracker>().karma);
     }
 
     // Update is called once per frame
@@ -37,5 +41,11 @@ public class SliderController : MonoBehaviour
     public void UpdateSlider(float value)
     {
         slider.value += value;
+        karmaTracker.GetComponent<karmaTracker>().AddKarma(value);
+    }
+
+    private void SetSlider(float value)
+    {
+        slider.value = value;
     }
 }

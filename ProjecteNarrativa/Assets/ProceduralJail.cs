@@ -87,24 +87,23 @@ public class ProceduralJail : MonoBehaviour
         if (child.GetComponent<HeatUnit>().distanceToExit == lowestValue)
         {
             int selection = 0;
-            switch(Random.Range(0, 10))
+            switch(Random.Range(0, 9))
             {
                 case 0:
                 case 1:
                 case 2:
                 case 3:
-                case 4:
                     break;
 
+                case 4:
                 case 5:
                 case 6:
                 case 7:
-                case 8:
                     selection = 1;
                     break;
 
+                case 8:
                 case 9:
-                case 10:
                     selection = 2;
                     break;
             }
