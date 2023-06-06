@@ -15,6 +15,9 @@ public class ProceduralJail : MonoBehaviour
     [Header("Deco Elements")]
     public List<GameObject> deco = new List<GameObject>();
 
+    [Header("Significant Elements")]
+    public List<GameObject> significantElements = new List<GameObject>();
+
     public GameObject exit;
 
     [SerializeField]
@@ -79,6 +82,11 @@ public class ProceduralJail : MonoBehaviour
         if (child.GetComponent<HeatUnit>().heatMapValue > treshHold)
         {
             Instantiate(deco[Random.Range(0, deco.Count)], child.position, Quaternion.identity);
+        }
+        
+        if (child.GetComponent<HeatUnit>().distanceToExit == lowestValue)
+        {
+            Instantiate(significantElements[Random.Range(0, significantElements.Count)], child.position, Quaternion.identity);
         }
     }
     public float DistanceToExit(Vector3 _pos)

@@ -10409,6 +10409,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 15828296}
     m_Modifications:
+    - target: {fileID: 1891085915, guid: 2d01f5019efea09429cd8fe9b84a4a2e, type: 3}
+      propertyPath: onIncrement.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1102614220}
     - target: {fileID: 154168062650071478, guid: 2d01f5019efea09429cd8fe9b84a4a2e,
         type: 3}
       propertyPath: m_RootOrder

@@ -285,12 +285,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5eee2f9d77c694999be6791806c315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  treshHold: 0.5
   light: {fileID: 4363482527361904117}
   gridParent: {fileID: 1587512194585135053}
   grid: []
   deco:
   - {fileID: 1940380480520996426, guid: 7d0ac81fc22a1dc4e99ec20222506df1, type: 3}
   - {fileID: 1006953873761176512, guid: 5e076444c941063498f6a40158641656, type: 3}
+  significantElements:
+  - {fileID: 154168062650071481, guid: 2d01f5019efea09429cd8fe9b84a4a2e, type: 3}
+  - {fileID: 1274152818310764, guid: 57e02a55277772f4e8a2bd2f44f5faa8, type: 3}
+  - {fileID: 1101376284208606, guid: 22dd9981e0766fb489351b3f008b13fe, type: 3}
   exit: {fileID: 7578589530005962060}
   highestValue: 0
   lowestValue: 100
@@ -310,7 +315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8515548436375528776
 Transform:
   m_ObjectHideFlags: 0
@@ -564,7 +569,7 @@ BoxCollider:
   m_GameObject: {fileID: 7578589530005962060}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
